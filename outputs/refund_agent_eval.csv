@@ -1,0 +1,8 @@
+scenario_id,status,refund_amount_inr,llm_calls,tokens_used,passed
+S1,REFUND,128.25,5,1080,True
+S2,REFUND,135.0,5,1080,True
+S3,ESCALATE,1999.0,5,1067,True
+S4,DENIED,0.0,4,749,True
+S5,DENIED,0.0,3,445,True
+S6,NOT_FOUND,0.0,2,144,True
+S7,FALLBACK_MAX_ITERATIONS,0.0,6,3216,True

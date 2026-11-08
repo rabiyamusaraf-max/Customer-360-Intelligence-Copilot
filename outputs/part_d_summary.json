@@ -1,0 +1,39 @@
+{
+  "crash_resume": {
+    "llm_calls": 5,
+    "status": "REFUND",
+    "tokens_used": 1080,
+    "tools_executed_in_order": [
+      "get_order",
+      "search_policy",
+      "calculate_refund",
+      "issue_refund"
+    ]
+  },
+  "policy_rag_overlap_0": {
+    "expected_fact_rate": 0.8333,
+    "known_policy_questions": 12,
+    "questions": 14,
+    "source_recall": 1.0,
+    "unknown_fallback_rate": 1.0,
+    "unknown_questions": 2
+  },
+  "policy_rag_overlap_10": {
+    "expected_fact_rate": 1.0,
+    "known_policy_questions": 12,
+    "questions": 14,
+    "source_recall": 1.0,
+    "unknown_fallback_rate": 1.0,
+    "unknown_questions": 2
+  },
+  "refund_agent": {
+    "pass_rate": 1.0,
+    "passed": 7,
+    "scenario_count": 7
+  },
+  "stop_safely": {
+    "s7_status": "FALLBACK_MAX_ITERATIONS",
+    "timeout_demo_status": "FALLBACK_TIMEOUT",
+    "token_limit_demo_status": "FALLBACK_TOKEN_LIMIT"
+  }
+}
